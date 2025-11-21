@@ -1,0 +1,22 @@
+{
+    "name": "playwright-auto-tests",
+    "version": "1.0.0",
+    "description": "Framework de pruebas automáticas para gonzalomorenoc.es",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx bddgen && npx playwright test",
+        "test:ui": "npx bddgen && npx playwright test --ui",
+        "report": "npx playwright show-report"
+    },
+    "keywords": [],
+    "author": "Gonzalo Moreno",
+    "license": "ISC",
+    "devDependencies": {
+        "@cucumber/cucumber": "^12.2.0",
+        "@playwright/test": "^1.40.0",
+        "@types/node": "^20.10.0",
+        "playwright-bdd": "^8.4.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.3.3"
+    }
+}
