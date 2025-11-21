@@ -7,7 +7,7 @@ const testDir = defineBddConfig({
 });
 
 export default defineConfig({
-  testDir, // Directorio generado por BDD
+  testDir,
   fullyParallel: true,
   reporter: 'html',
   use: {
